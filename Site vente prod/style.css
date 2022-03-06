@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+p {
+    color: #555;
+}
+
+.container {
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.6) 50%), url(images/banner.jpeg);
+    color: white;
+    padding: 150px 0px;
+    background-size: cover;
+    background-position: center center;
+    top: 100px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.audio-player {
+    margin: 20px 0px;
+    height: 50px;
+    width: 455px;
+    box-shadow: 0 0 20px 0 #000a;
+    font-family: arial;
+    color: white;
+    font-size: 0.75em;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 6px auto;
+  }
+
+.btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    padding: 8px 30px;
+    margin: 10px 0;
+    border-radius: 30px;
+    position: fixed;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: rgb(192, 192, 192);
+}
+
+.small-container {
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.2) 50%), url(images/Background\ Beats.png);
+    color: white;
+    padding: 50px 0px;
+    background-position: center center;
+    top: 100px;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.col-4 {
+    color: white;
+    flex-basis: 25%;
+    padding: 20px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.audio-player2 {
+    margin: 20px 0px;
+    height: 70px;
+    width: 400px;
+    box-shadow: 0 0 20px 0 #000a;
+    font-family: arial;
+    color: white;
+    font-size: 0.75em;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 6px auto;
+  }
+
+.music {
+    padding: 1px;
+    margin-bottom: 40px;
+}
+
+.small-container2 {
+    padding: 50px 0px;
+    background-position: center center;
+    top: 100px;
+    width: 100%;
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.About {
+    margin-top: 30px;
+    padding: 30px 0;
+}
+
+.About-img {
+    width: 500px;
+}
+
+.col-5 {
+    flex-basis: 50%;
+    padding: 10px;
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+}
+.btn-blue:hover{
+    background-color: black;
+    color: white;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 10px;
+}
+
+.list-inline i:hover {
+    font-size: 50px;
+    color: rgb(230, 230, 230);
+}
+
+.list-inline i:hover {
+    color: black;
+}
+
+#introduction p {
+    margin-bottom: 40px;
+}
